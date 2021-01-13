@@ -19,7 +19,6 @@ function getData(){
   })
 }
 
-getData();
 function eric(){
   alert("Sign in successful")
 }
@@ -58,7 +57,7 @@ const PrintPage = () => {
                 <div class="col-lg-6 col-md-8 mx-auto">
 
                     <div class="card card-body">
-                        <h3 class="text-center mb-4" id="detial-text">*Check if your Details are correct*</h3>
+                        <h3 class="text-center mb-4" id="detial-text">*Click Print to check your Details *</h3>
                         <hr/>
                        
                           <h3 id = "list1"></h3>
@@ -68,9 +67,9 @@ const PrintPage = () => {
                           <h3 id = "list3"></h3>
                           <hr/>
                          
-                         
+                          <input class="btn btn-lg btn-outline btn-dark" value=" Print" type="submit" onClick={getData} />
                           <Link to = "/">
-                            <input class="btn btn-md btn-primary btn-block" value="Next" type="submit" onClick={eric} />
+                            <input class="btn btn-lg btn-success " value="Next" type="submit" onClick={eric} />
                             </Link>
                        </div>
                     </div>

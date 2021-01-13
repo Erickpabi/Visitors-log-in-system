@@ -2,7 +2,7 @@ import React from 'react'
 import Logo from '../assets/Logo.png'
 import  firebase from 'firebase'
 import {Link} from  'react-router-dom'
-var video = document.querySelector("#videoElement");
+/* var video = document.querySelector("#videoElement");
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUsermedia
 ||navigator.mozGetUserMedia||navigator.msGetUserMedia||navigator.oGetUserMedia;
 
@@ -17,7 +17,7 @@ function handleVideo(stream) {
 function videoError(e) {
 
 }
-
+ */
  
   
 
@@ -48,7 +48,7 @@ return(
   </div>
 </nav>
 
-<p id = "webcam_paragraph">Smile for the camera</p>
+
 
  <div id = "container">
 
