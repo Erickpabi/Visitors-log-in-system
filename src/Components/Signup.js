@@ -61,10 +61,10 @@ const Signup = () => {
                             </div>
                             <br/>
                             <div class="input-group">
-                            <input  class = "form-control" type="tel" id="phone" name="phone1" placeholder="0123-45-67-18" pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required/>
+                            <input  class = "form-control" type="tel" id="phone" name="phone1" placeholder="Phone number" />
 
                                 <span class = "input-gorup-addon">  </span>
-                                <input class="form-control" placeholder="Companyname" id="cname"  type="text"/>
+                                <input class="form-control" placeholder="Company name" id="cname"  type="text"/>
                             </div>
                             <br/>
                          

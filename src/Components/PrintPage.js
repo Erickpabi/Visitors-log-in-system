@@ -14,9 +14,12 @@ function getData(){
       document.getElementById("list1").innerHTML = "My name is : " +  childData['Fullname'] ;
       document.getElementById("list2").innerHTML = "I am a :" +  childData['yourself'];
       document.getElementById("list3").innerHTML = "I came to see : " +  childData['Hostname'] ; 
-    
+   
+     
       }  )
   })
+ 
+ 
 }
 
 function eric(){
@@ -59,17 +62,17 @@ const PrintPage = () => {
                     <div class="card card-body">
                         <h3 class="text-center mb-4" id="detial-text">*Click Print to check your Details *</h3>
                         <hr/>
-                       
-                          <h3 id = "list1"></h3>
+                   
+                          <h4 id = "list1"></h4>
                           <hr/>
-                          <h3 id = "list2"></h3>
+                          <h4 id = "list2"></h4>
                           <hr/>
-                          <h3 id = "list3"></h3>
+                          <h4 id = "list3"></h4>
                           <hr/>
                          
                           <input class="btn btn-lg btn-outline btn-dark" value=" Print" type="submit" onClick={getData} />
                           <Link to = "/">
-                            <input class="btn btn-lg btn-success " value="Next" type="submit" onClick={eric} />
+                            <input class="btn btn-lg btn-success btn-block" value="Click here to exit" type="submit" onClick={eric} />
                             </Link>
                        </div>
                     </div>

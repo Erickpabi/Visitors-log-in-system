@@ -9,6 +9,11 @@ import Guest from './Components/Guest'
 import Webcam from './Components/Webcam';
 import Host from './Components/Host'
 import PrintPage from './Components/PrintPage'
+import AdminComponent from './Components/AdminComponent'
+import Contacts from './Components/Contacts'
+import Admin from './Components/Admin'
+
+import ContactForm from './Components/ContactForm'
 function App() {
   return (
     <Router>
@@ -52,6 +57,21 @@ function App() {
 <Route path = "/printpage">
   <PrintPage/>
 </Route>
+
+
+
+
+<Route path = "/admin">
+  <Admin/>
+</Route>
+
+
+
+<Route path = "/admincomponent">
+  <AdminComponent/>
+</Route>
+
+
 
 <Route >
   <Redirect to = "/"/>
